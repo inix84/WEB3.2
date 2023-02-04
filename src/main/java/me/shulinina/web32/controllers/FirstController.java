@@ -24,7 +24,7 @@ public class FirstController {
         @GetMapping("/info")
         public String info(String nameStudent, String nameProject, LocalDate dateProject, String descriptionProject){
             nameStudent = "Marina";
-            nameProject = "ЭГЭ на пять";
+            nameProject = "ЕГЭ на пять";
             dateProject = LocalDate.now();
             descriptionProject = "Веб приложение для помощи сдающим ЕГЭ";
             return "Приложение запущено " + " / " + nameStudent + " / " + nameProject + " / " + dateProject +" / " + descriptionProject;
